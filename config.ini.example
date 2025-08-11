@@ -1,0 +1,21 @@
+[Twitch]
+Username = your_twitch_username
+OAuthToken = your_twitch_oauth_token_here
+Channel = #your_twitch_channel
+
+[YouTube]
+ApiKey = your_youtube_api_key_here
+ChannelID = your_youtube_channel_id_here
+
+[OpenAI]
+ApiKey = your_openai_api_key_here
+
+[NWS]
+# National Weather Service API requires a user agent string
+# Format: (Your Application Name, Your Contact Email or Website)
+UserAgent = (VeloxLiveBot, you@example.com)
+
+[General]
+# Your primary location for weather alerts
+Location = YourCity, YourState
+LogFile = veloxlivebot.log
